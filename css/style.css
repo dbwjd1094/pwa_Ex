@@ -101,11 +101,24 @@ body {
     margin-bottom: 50px;
 }
 
-.intro .explain {
+.intro .explain2 {
     display: flex;
     justify-content: center;
     text-align: center;
     margin-bottom: 80px;
+    line-height: 1.7;
+}
+
+.intro .explain2 span {
+    font-family: 'GmarketSansBold';
+    font-size: 20px;
+}
+
+.intro .explain {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto 80px;
 }
 
 .intro .quotes {
@@ -115,12 +128,9 @@ body {
 
 .intro .explain p {
     position: absolute;
-    font-size: 17px;
-    line-height: 1.7;
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: 'GmarketSans';
 }
 
-.intro .explain span {
-    font-family: 'GmarketSansBold';
-    font-size: 20px;
-}
 
