@@ -9,7 +9,7 @@
   "short_name": "choi",
   "start_url": "https://dbwjd1094.github.io/pwa_Ex/",
   "theme_color": "#ffffff",
-  "categories": [],
+  "categories": ["education"],
   "screenshots": [],
   "icons": [
     {
