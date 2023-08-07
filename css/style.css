@@ -52,7 +52,7 @@ body {
 #contents {
     display: flex;
     justify-content: center;
-    padding: 20px 0 60px;
+    padding: 20px 20px 60px;
 }
 
 .wrapper {
@@ -79,7 +79,6 @@ body {
 
 .title_img {
     position: absolute;
-    width: 564px;
 }
 
 .title_img img {
@@ -124,6 +123,10 @@ body {
 .intro .quotes {
     position: relative;
     padding-top: 20px;
+
+    & img {
+        width: 100%;
+    }
 }
 
 .intro .explain p {
