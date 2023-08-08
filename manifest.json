@@ -1,5 +1,5 @@
 {
-  "background_color": "#ffffff",
+  "background_color": "#5B2386",
   "description": "sample page",
   "dir": "ltr",
   "display": "standalone",
@@ -8,7 +8,7 @@
   "scope": "/",
   "short_name": "choi",
   "start_url": "https://dbwjd1094.github.io/pwa_Ex/",
-  "theme_color": "#ffffff",
+  "theme_color": "#5B2386",
   "categories": ["education"],
   "screenshots": [],
   "icons": [
