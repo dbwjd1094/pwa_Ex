@@ -8,16 +8,16 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="manifest" href="manifest.json" />
-    <script type="module">
+    <!-- <script type="module">
         import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
         const el = document.createElement('pwa-update');
         document.body.appendChild(el);
-     </script>
-     <script>
+     </script> -->
+    <script>
         if (typeof navigator.serviceWorker !== 'undefined') {
-          navigator.serviceWorker.register('pwabuilder-sw.js')
+            navigator.serviceWorker.register('pwabuilder-sw.js')
         }
-      </script>
+    </script>
       
     <title>PWA</title>
 </head>
